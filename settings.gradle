@@ -1,0 +1,2 @@
+include  ':LTSDKAndroidXOnestore'
+rootProject.name='LTGameSDKOnestore'
