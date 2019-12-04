@@ -1,2 +1,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sdk.ltgame.ltonestore" />
+    package="com.sdk.ltgame.ltonestore">
+    <application>
+        <activity
+            android:name=".uikit.OneStoreActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="iap:api_version"
+            android:value="5" />
+        <meta-data
+            android:name="iap:view_option"
+            android:value="popup" />
+    </application>
+</manifest>
